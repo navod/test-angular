@@ -31,6 +31,7 @@ export class DataLayerService {
       category: category,
       action: action,
       label: label,
+      userId: 'I001',
     };
     this.pingHome(hit);
   }
