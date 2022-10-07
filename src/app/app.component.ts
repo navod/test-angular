@@ -27,10 +27,10 @@ export class AppComponent {
     console.log('test1 btn clicked..!');
     //call the service's logEvent method
     this._dataLayerService.logEvent(
-      "'ButtonClicked'",
-      "'Buttons'",
-      "'Clicked'",
-      "'Test1Btn'"
+      'ButtonClicked',
+      'Buttons',
+      'Clicked',
+      'Test1Btn'
     );
 
     // continue with logic for what needs to be done in this method.
@@ -40,10 +40,10 @@ export class AppComponent {
     console.log('test2 btn clicked..!');
     //call the service's logEvent method
     this._dataLayerService.logEvent(
-      "'ButtonClicked'",
-      "'Buttons'",
-      "'Clicked'",
-      "'Test2Btn'"
+      'ButtonClicked',
+      'Buttons',
+      'Clicked',
+      'Test2Btn'
     );
 
     // continue with logic for what needs to be done in this method.
