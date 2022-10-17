@@ -26,7 +26,7 @@ export class AppComponent {
   }
 
   testbutton1Click() {
-    console.log('test1 btn clicked..!');
+    console.log('test1 btn clicked123..!');
     //call the service's logEvent method
     // this._dataLayerService.logEvent(
     //   "ButtonClicked",
