@@ -32,6 +32,11 @@ export class DataLayerService {
       action: action,
       label: label,
       userId: 'I001',
+      options:{
+        test:"gello",
+        path:"test/hello",
+        contact:"0763933541"
+      }
     };
     this.pingHome(hit);
   }
