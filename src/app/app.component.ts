@@ -34,7 +34,7 @@ export class AppComponent {
     //   "Clicked",
     //   "Test1Btn"
     // );
-    this.ga.event('submit', 'user_register_form', 'Enviar',undefined,undefined,{
+    this.ga.event('submit', 'user_register_form', undefined,undefined,undefined,{
       userId:'U001'
     })
 
