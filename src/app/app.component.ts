@@ -26,7 +26,7 @@ export class AppComponent {
   }
 
   testbutton1Click() {
-    console.log('test1 btn clicked123..!');
+    console.log('test1 btn clicked123234..!');
     //call the service's logEvent method
     // this._dataLayerService.logEvent(
     //   "ButtonClicked",
@@ -34,7 +34,9 @@ export class AppComponent {
     //   "Clicked",
     //   "Test1Btn"
     // );
-    this.ga.event('submit', 'user_register_form', 'Enviar')
+    this.ga.event('submit', 'user_register_form', 'Enviar',undefined,undefined,{
+      userId:'U001'
+    })
 
     // continue with logic for what needs to be done in this method.
   }
